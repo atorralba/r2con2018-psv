@@ -39,6 +39,7 @@ int main() {
 	} else {
 		fwrite("Sorry, try again.\n", 1, 18, stderr);
 	}
+	free(input);
 	return 0;
 }
 
